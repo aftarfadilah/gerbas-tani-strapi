@@ -367,6 +367,7 @@ export interface ApiHomeHome extends Schema.SingleType {
     singularName: 'home';
     pluralName: 'homes';
     displayName: 'Home';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -381,9 +382,7 @@ export interface ApiHomeHome extends Schema.SingleType {
     deskripsi: Attribute.Text;
     small_card: Attribute.Component<'tampilan.small-card', true>;
     kotak_produk: Attribute.Component<'tampilan.produk-unggulan', true>;
-    konten: Attribute.DynamicZone<
-      ['tampilan.produk-unggulan', 'tampilan.banner']
-    >;
+    konten: Attribute.DynamicZone<['tampilan.banner']>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

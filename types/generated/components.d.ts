@@ -4,12 +4,14 @@ export interface TampilanBanner extends Schema.Component {
   collectionName: 'components_tampilan_banners';
   info: {
     displayName: 'banner';
+    description: '';
   };
   attributes: {
     judul: Attribute.String;
     deskripsi: Attribute.Text;
     link_teks: Attribute.String;
     link_url: Attribute.String;
+    latar_belakang: Attribute.Media;
   };
 }
 

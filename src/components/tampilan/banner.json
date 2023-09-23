@@ -1,7 +1,8 @@
 {
   "collectionName": "components_tampilan_banners",
   "info": {
-    "displayName": "banner"
+    "displayName": "banner",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -16,6 +17,16 @@
     },
     "link_url": {
       "type": "string"
+    },
+    "latar_belakang": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
