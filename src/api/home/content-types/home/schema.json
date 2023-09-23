@@ -1,0 +1,69 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "countdown": {
+      "type": "datetime"
+    },
+    "deskripsi_hitung_mundur": {
+      "type": "text"
+    },
+    "banner": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "gallery": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "text_atas": {
+      "type": "string"
+    },
+    "judul": {
+      "type": "string"
+    },
+    "deskripsi": {
+      "type": "text"
+    },
+    "small_card": {
+      "displayName": "small-card",
+      "type": "component",
+      "repeatable": true,
+      "component": "tampilan.small-card"
+    },
+    "kotak_produk": {
+      "displayName": "produk_unggulan",
+      "type": "component",
+      "repeatable": true,
+      "component": "tampilan.produk-unggulan"
+    },
+    "konten": {
+      "type": "dynamiczone",
+      "components": [
+        "tampilan.produk-unggulan",
+        "tampilan.banner"
+      ]
+    }
+  }
+}

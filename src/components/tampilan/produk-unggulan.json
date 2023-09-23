@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_tampilan_produk_unggulans",
+  "info": {
+    "displayName": "produk_unggulan",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "foto_produk": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "nama_produk": {
+      "type": "string"
+    }
+  }
+}

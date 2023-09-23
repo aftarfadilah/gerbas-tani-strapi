@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_tampilan_small_cards",
+  "info": {
+    "displayName": "small-card",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "isi": {
+      "type": "string"
+    }
+  }
+}
